@@ -1,0 +1,23 @@
+@charset "ISO-8859-1";
+.c {
+    max-width: 1300px;
+    margin: auto;
+}
+.m{
+	min-width: 400px;
+	padding: 10px;
+	border: 1px solid #c5c5c5;
+}
+header h2{
+    color: rgb(255, 64, 89);
+}
+#boton{
+    width: 200px;
+}
+.thead{
+    background-color: rgb(41, 128, 241);
+    color: white;
+}
+.tbody{
+    color:rgb(40, 116, 238) ;
+}

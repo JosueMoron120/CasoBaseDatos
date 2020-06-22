@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet"
+	href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+	integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+	crossorigin="anonymous">
+<link href="recursos/css/bootstrap.min.css" rel="stylesheet">
+<link href="recursos/css/estilos.css" rel="stylesheet">
+
+</head>
+<body>
+	<div class="container c mt-5 ">
+		<div class="row">
+			<div class="m col-md-4">
+                <header><h2>Alumnos UPeU</h2></header>
+				<div class="container">
+					<div class="form-group">
+						<label for="a">Escuela:</label> 
+						<select class="form-control" id="escuela"><!--cat-->
+							<option>Selecccionar Escuela</option>
+						</select>
+					</div>
+					<div class="form-group">
+						<label for="a">Nombres y Apellidos:</label> <input type="text"
+							class="form-control" name="nombres" id="nombres"> <!--prod-->
+					</div>
+					<div class="form-group">
+						<label for="a">Correo:</label> <input type="text" class="form-control" name="correo" id="correo">
+					</div> <!--precio-->
+					<div class="form-group">
+						<label for="a">Celular:</label> <input type="text"
+							class="form-control" name="celular" id="celular" >
+							<input type="hidden" name="id" id="id" value="0">
+					</div><!--cant-->
+					<div class="d-flex justify-content-end form-group">
+						<button id="boton" class="btn btn-primary">Enviar</button>
+					</div>
+				</div>
+			</div>
+			<div class="m col-md-8" >
+				<table class="table table-borderless" id="tablita">
+					<thead class="thead">
+						<tr>
+							<th scope="col">#</th>
+							<th scope="col">Escuela</th>
+							<th scope="col">Apellidos y Nombres</th>
+							<th scope="col">Correo</th>
+							<th scope="col">Teléfono</th>
+							<th scope="col" colspan="2">Operaciones</th>
+						</tr>
+					</thead>
+					<tbody class="tbody">
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="recursos/js/jquery-3.5.1.min.js"></script>
+	<script type="text/javascript" src="recursos/js/popper.min.js"></script>
+	<script type="text/javascript" src="recursos/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="recursos/js/bootbox.min.js"></script>
+	<script type="text/javascript" src="recursos/js/bootbox.locales.min.js"></script>
+	<script type="text/javascript" src="recursos/js/jquery.numeric.js"></script>
+	<script type="text/javascript" src="recursos/js/script.js"></script>
+	
+</body>
+</html>
